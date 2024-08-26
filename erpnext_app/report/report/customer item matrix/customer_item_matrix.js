@@ -81,7 +81,7 @@ frappe.query_reports["Territory-wise Sales"] = {
                     for (let [item, qty] of Object.entries(items)) {
                         row[item] = qty;
                     }
-                    data.push(row);
+                    data.push(row)
                 }
 
                 return data;
