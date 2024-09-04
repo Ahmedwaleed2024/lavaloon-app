@@ -1,0 +1,29 @@
+{
+ "add_total_row": 0,
+ "columns": [],
+ "creation": "2024-09-04 10:19:03.229648",
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "letterhead": null,
+ "modified": "2024-09-04 10:19:03.229648",
+ "modified_by": "Administrator",
+ "module": "lavaloon app",
+ "name": "Customer Item Matrix Report",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "Opportunity",
+ "report_name": "Customer Item Matrix Report",
+ "report_type": "Script Report",
+ "roles": [
+  {
+   "role": "Sales User"
+  },
+  {
+   "role": "Sales Manager"
+  }
+ ]
+}
