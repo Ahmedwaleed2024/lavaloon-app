@@ -1,4 +1,4 @@
-app_name = "erpnext_app"
+app_name = "lavaloon_app"
 app_title = "lavaloon app"
 app_publisher = "ahmed waleed"
 app_description = "new report"
@@ -13,11 +13,11 @@ app_license = "mit"
 # Each item in the list will be shown as an app in the apps page
 # add_to_apps_screen = [
 # 	{
-# 		"name": "erpnext_app",
-# 		"logo": "/assets/erpnext_app/logo.png",
+# 		"name": "lavaloon_app",
+# 		"logo": "/assets/lavaloon_app/logo.png",
 # 		"title": "lavaloon app",
-# 		"route": "/erpnext_app",
-# 		"has_permission": "erpnext_app.api.permission.has_app_permission"
+# 		"route": "/lavaloon_app",
+# 		"has_permission": "lavaloon_app.api.permission.has_app_permission"
 # 	}
 # ]
 
@@ -25,15 +25,15 @@ app_license = "mit"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/erpnext_app/css/erpnext_app.css"
-# app_include_js = "/assets/erpnext_app/js/erpnext_app.js"
+# app_include_css = "/assets/lavaloon_app/css/lavaloon_app.css"
+# app_include_js = "/assets/lavaloon_app/js/lavaloon_app.js"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/erpnext_app/css/erpnext_app.css"
-# web_include_js = "/assets/erpnext_app/js/erpnext_app.js"
+# web_include_css = "/assets/lavaloon_app/css/lavaloon_app.css"
+# web_include_js = "/assets/lavaloon_app/js/lavaloon_app.js"
 
 # include custom scss in every website theme (without file extension ".scss")
-# website_theme_scss = "erpnext_app/public/scss/website"
+# website_theme_scss = "lavaloon_app/public/scss/website"
 
 # include js, css files in header of web form
 # webform_include_js = {"doctype": "public/js/doctype.js"}
@@ -51,7 +51,7 @@ app_license = "mit"
 # Svg Icons
 # ------------------
 # include app icons in desk
-# app_include_icons = "erpnext_app/public/icons.svg"
+# app_include_icons = "lavaloon_app/public/icons.svg"
 
 # Home Pages
 # ----------
@@ -75,43 +75,43 @@ app_license = "mit"
 
 # add methods and filters to jinja environment
 # jinja = {
-# 	"methods": "erpnext_app.utils.jinja_methods",
-# 	"filters": "erpnext_app.utils.jinja_filters"
+# 	"methods": "lavaloon_app.utils.jinja_methods",
+# 	"filters": "lavaloon_app.utils.jinja_filters"
 # }
 
 # Installation
 # ------------
 
-# before_install = "erpnext_app.install.before_install"
-# after_install = "erpnext_app.install.after_install"
+# before_install = "lavaloon_app.install.before_install"
+# after_install = "lavaloon_app.install.after_install"
 
 # Uninstallation
 # ------------
 
-# before_uninstall = "erpnext_app.uninstall.before_uninstall"
-# after_uninstall = "erpnext_app.uninstall.after_uninstall"
+# before_uninstall = "lavaloon_app.uninstall.before_uninstall"
+# after_uninstall = "lavaloon_app.uninstall.after_uninstall"
 
 # Integration Setup
 # ------------------
 # To set up dependencies/integrations with other apps
 # Name of the app being installed is passed as an argument
 
-# before_app_install = "erpnext_app.utils.before_app_install"
-# after_app_install = "erpnext_app.utils.after_app_install"
+# before_app_install = "lavaloon_app.utils.before_app_install"
+# after_app_install = "lavaloon_app.utils.after_app_install"
 
 # Integration Cleanup
 # -------------------
 # To clean up dependencies/integrations with other apps
 # Name of the app being uninstalled is passed as an argument
 
-# before_app_uninstall = "erpnext_app.utils.before_app_uninstall"
-# after_app_uninstall = "erpnext_app.utils.after_app_uninstall"
+# before_app_uninstall = "lavaloon_app.utils.before_app_uninstall"
+# after_app_uninstall = "lavaloon_app.utils.after_app_uninstall"
 
 # Desk Notifications
 # ------------------
 # See frappe.core.notifications.get_notification_config
 
-# notification_config = "erpnext_app.notifications.get_notification_config"
+# notification_config = "lavaloon_app.notifications.get_notification_config"
 
 # Permissions
 # -----------
@@ -150,39 +150,39 @@ app_license = "mit"
 
 # scheduler_events = {
 # 	"all": [
-# 		"erpnext_app.tasks.all"
+# 		"lavaloon_app.tasks.all"
 # 	],
 # 	"daily": [
-# 		"erpnext_app.tasks.daily"
+# 		"lavaloon_app.tasks.daily"
 # 	],
 # 	"hourly": [
-# 		"erpnext_app.tasks.hourly"
+# 		"lavaloon_app.tasks.hourly"
 # 	],
 # 	"weekly": [
-# 		"erpnext_app.tasks.weekly"
+# 		"lavaloon_app.tasks.weekly"
 # 	],
 # 	"monthly": [
-# 		"erpnext_app.tasks.monthly"
+# 		"lavaloon_app.tasks.monthly"
 # 	],
 # }
 
 # Testing
 # -------
 
-# before_tests = "erpnext_app.install.before_tests"
+# before_tests = "lavaloon_app.install.before_tests"
 
 # Overriding Methods
 # ------------------------------
 #
 # override_whitelisted_methods = {
-# 	"frappe.desk.doctype.event.event.get_events": "erpnext_app.event.get_events"
+# 	"frappe.desk.doctype.event.event.get_events": "lavaloon_app.event.get_events"
 # }
 #
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,
 # along with any modifications made in other Frappe apps
 # override_doctype_dashboards = {
-# 	"Task": "erpnext_app.task.get_dashboard_data"
+# 	"Task": "lavaloon_app.task.get_dashboard_data"
 # }
 
 # exempt linked doctypes from being automatically cancelled
@@ -196,13 +196,13 @@ app_license = "mit"
 
 # Request Events
 # ----------------
-# before_request = ["erpnext_app.utils.before_request"]
-# after_request = ["erpnext_app.utils.after_request"]
+# before_request = ["lavaloon_app.utils.before_request"]
+# after_request = ["lavaloon_app.utils.after_request"]
 
 # Job Events
 # ----------
-# before_job = ["erpnext_app.utils.before_job"]
-# after_job = ["erpnext_app.utils.after_job"]
+# before_job = ["lavaloon_app.utils.before_job"]
+# after_job = ["lavaloon_app.utils.after_job"]
 
 # User Data Protection
 # --------------------
@@ -232,7 +232,7 @@ app_license = "mit"
 # --------------------------------
 
 # auth_hooks = [
-# 	"erpnext_app.auth.validate"
+# 	"lavaloon_app.auth.validate"
 # ]
 
 # Automatically update python controller files with type annotations for this app.

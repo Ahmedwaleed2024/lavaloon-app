@@ -1,5 +1,5 @@
 [project]
-name = "erpnext_app"
+name = "lavaloon_app"
 authors = [
     { name = "ahmed waleed", email = "ahmed.waleed@lavaloon.com"}
 ]
