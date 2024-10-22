@@ -1,6 +1,6 @@
 ## lavaloon app
 
-Customer Item mMatrix Report
+Customer Item Matrix Report
 #### License
 
 mit
